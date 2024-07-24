@@ -5,5 +5,5 @@ from core.models import Categoria
 
 class CategoriaSerializer(ModelSerializer):
     class Meta:
-        Model = Categoria
+        model = Categoria
         fields = "__all__"

@@ -14,12 +14,12 @@ from core.views import UserViewSet, AcessorioViewSet, CategoriaViewSet, CorViewS
 router = DefaultRouter()
 
 router.register(r"usuarios", UserViewSet, basename="usuarios")
-router.register(r"Acessorios", AcessorioViewSet)
-router.register(r"Categorias", CategoriaViewSet)
-router.register(r"Cores", CorViewSet)
-router.register(r"Marca", MarcaViewSet)
-router.register(r"Modelo", ModeloViewSet)
-router.register(r"Veiculo", VeiculoViewSet)
+router.register(r"acessorios", AcessorioViewSet)
+router.register(r"categorias", CategoriaViewSet)
+router.register(r"cores", CorViewSet)
+router.register(r"marca", MarcaViewSet)
+router.register(r"modelo", ModeloViewSet)
+router.register(r"veiculo", VeiculoViewSet)
 urlpatterns = [
     path("admin/", admin.site.urls),
     # OpenAPI 3
